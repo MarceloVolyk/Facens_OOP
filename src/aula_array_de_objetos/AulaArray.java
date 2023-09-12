@@ -21,7 +21,7 @@ public class AulaArray {
 		for(int i = 0; i<listaAlunos.size(); i++) {
 			JOptionPane.showMessageDialog(null, listaAlunos.get(i).imprimir());
 		}
-
+		//faz a mesma coisa só que com for-each:
 		for(Aluno a : listaAlunos) {
 			JOptionPane.showMessageDialog(null, a.imprimir());
 		}
